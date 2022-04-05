@@ -3,8 +3,14 @@ const p2Button = document.querySelector("#p2Btn");
 const resetButton = document.querySelector("#resetBtn");
 const p1Display = document.querySelector("#p1Display");
 const p2Display = document.querySelector("#p2Display");
+const scoreSelect = document.querySelector("#playTo");
 
 let winningScore = 5;
+
+scoreSelect.addEventListener("change", function () {
+  winningScore = parseInt(this.value);
+});
+
 let gameOver = false;
 
 let p1Score = 0;
