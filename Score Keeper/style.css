@@ -1,0 +1,30 @@
+.winner {
+  color: green;
+}
+.loser {
+  color: red;
+}
+
+body {
+  background-color: rgb(41, 39, 52);
+}
+
+#tittle {
+  color: orange;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+#container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  width: 600px;
+  margin: 0% 10%;
+  padding: 30px;
+}
