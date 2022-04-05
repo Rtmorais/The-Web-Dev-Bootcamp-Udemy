@@ -1,0 +1,21 @@
+h1 {
+  font-size: 80px;
+}
+
+body {
+  background-color: rgb(255, 228, 196);
+  text-align: center;
+}
+
+#btnRandom {
+  background-color: rgb(149, 3, 3);
+  color: white;
+  font-size: 50px;
+  padding: 50 35px;
+  border-radius: 20px;
+}
+
+#btnRandom:hover {
+    background-color: rgb(246, 48, 48);
+}
+
