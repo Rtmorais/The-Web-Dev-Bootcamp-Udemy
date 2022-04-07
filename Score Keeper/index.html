@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
     <title>Score Keeper</title>
   </head>
   <body>
@@ -13,18 +16,21 @@
         <div class="card">
       <div class="img"></div>
       <div class="scores">
-        <h2><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
+        <h2 id="display"><span id="p1Display">0</span> to <span id="p2Display">0</span></h2>
       </div>
       <div class="resetContainer">
+        <div>
+            <p>Play to:</p>
         <select name="" id="playTo">
           <option value="3">3</option>
           <option value="5">5</option>
           <option value="7">7</option>
           <option value="10">10</option>
         </select>
-        <button id="resetBtn">Reset</button>
+    </div>
+        <button id="resetBtn">RESET</button>
       </div>
-      <div class="BtnContainer">
+      <div class="btnContainer">
         <button id="p1Btn">+1 Player ONE</button>
         <button id="p2Btn">+1 Player TWO</button>
       </div>
