@@ -13,6 +13,8 @@ function reset() {
   p2Display.textContent = p2Score;
   p1Display.classList.remove("winner", "loser");
   p2Display.classList.remove("winner", "loser");
+  p1Button.classList.remove("disable")
+  p2Button.classList.remove("disable")
 }
 
 let winningScore = 3;
@@ -32,6 +34,8 @@ p1Button.addEventListener("click", function () {
       gameOver = true;
       p1Display.classList.add("winner");
       p2Display.classList.add("loser");
+      p1Button.classList.add("disable")
+      p2Button.classList.add("disable")
     }
     p1Display.textContent = p1Score;
   }
@@ -45,6 +49,8 @@ p2Button.addEventListener("click", function () {
       gameOver = true;
       p2Display.classList.add("winner");
       p1Display.classList.add("loser");
+      p1Button.classList.add("disable")
+      p2Button.classList.add("disable")
     }
     p2Display.textContent = p2Score;
   }
