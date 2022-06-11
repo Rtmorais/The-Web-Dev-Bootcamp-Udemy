@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TV Shows Catalog</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>TV Show Search</h1>
+    <section id="searchBlock">
+      <div class="wrapper">
+        <form action="" id="searchForm">
+          <input type="text" placeholder="Tv Show Tittle" name="query" />
+          <button>Scearch</button>
+        </form>
+      </div>
+    </section>
 
-    <form action="" id="searchForm">
-      <input type="text" placeholder="Tv Show Tittle" name="query" />
-      <button>Scearch</button>
-    </form>
+    <section id="resultBlock">
+    </section>
 
     <script src="app.js"></script>
   </body>
