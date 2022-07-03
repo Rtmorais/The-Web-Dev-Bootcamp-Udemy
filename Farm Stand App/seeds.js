@@ -14,27 +14,27 @@ const seedProducts = [
   {
     name: 'Fairy Eggplany',
     price: 1.0,
-    category: 'vegetable'
+    category: 'Vegetable'
   },
   {
     name: 'Organic Goddess Melon',
     price: 4.99,
-    category: 'fruit'
+    category: 'Fruit'
   },
   {
     name: 'Organic Mini Seedless Watermelon',
     price: 3.99,
-    category: 'fruit'
+    category: 'Fruit'
   },
   {
     name: 'Organic Celery',
     price: 1.5,
-    category: 'vegetable'
+    category: 'Vegetable'
   },
   {
     name: 'Chocolate Whole Milk',
     price: 2.69,
-    category: 'dairy'
+    category: 'Dairy'
   }
 ]
 
